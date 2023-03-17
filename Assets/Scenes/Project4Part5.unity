@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.48396292, g: 0.5757421, b: 0.6802008, a: 1}
+  m_IndirectSpecularColor: {r: 0.48396307, g: 0.57574326, b: 0.6802008, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuelMass: 0.001
-  maxThrust: 0.5
+  maxThrust: 2.5
   thrustPercent: 1
   thrustUnitVector: {x: 1, y: 1, z: 0}
 --- !u!114 &23158268
@@ -367,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2666154ddb3a4f4e9598907c6a295ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityExponent: 0.5
+  velocityExponent: 0.25
   dragConstant: 0.5
 --- !u!1 &36197204
 GameObject:
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuelMass: 0.001
-  maxThrust: 0.5
+  maxThrust: 2.5
   thrustPercent: 1
   thrustUnitVector: {x: 1, y: 1, z: 0}
 --- !u!114 &173949183
@@ -859,7 +859,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333383162}
-  m_LocalRotation: {x: 1.895025e-15, y: -0.38268346, z: 7.8494506e-16, w: 0.92387956}
+  m_LocalRotation: {x: -1.8950253e-15, y: -0.38268346, z: -7.849451e-16, w: 0.92387956}
   m_LocalPosition: {x: 10, y: 25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2666154ddb3a4f4e9598907c6a295ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityExponent: 0.5
+  velocityExponent: 2
   dragConstant: 0.5
 --- !u!114 &1039161912
 MonoBehaviour:

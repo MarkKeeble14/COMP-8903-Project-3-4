@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.056278255, g: 0.009438166, b: 0.0009432097, a: 1}
+  m_IndirectSpecularColor: {r: 0.056357797, g: 0.009486724, b: 0.0009414677, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -20}
+  m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -495,7 +495,17 @@ PrefabInstance:
     - target: {fileID: 3792961418975583207, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792961418975583207, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
+        type: 3}
+      propertyPath: maxThrust
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792961418975583207, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
+        type: 3}
+      propertyPath: thrustUnitVector.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3867481318700840951, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
@@ -537,7 +547,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918188961}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e974c0153551544da6b32f049e085e0, type: 3}
   m_Name: 
@@ -773,7 +783,7 @@ PrefabInstance:
     - target: {fileID: 2895486135442338560, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2895486135442338560, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
@@ -788,7 +798,7 @@ PrefabInstance:
     - target: {fileID: 2895486135442338560, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2895486135442338560, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
@@ -803,12 +813,17 @@ PrefabInstance:
     - target: {fileID: 2895486135442338560, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3792961418975583207, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792961418975583207, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
+        type: 3}
+      propertyPath: maxThrust
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 3867481318700840951, guid: 58c3bfbf2f9982a43a88b7e5527e8dd7,
         type: 3}
